@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  background-color: #641c0e;
+}
+
+.navbar {
+  background-color: #4e130b;
+}
+
+#ic:hover {
+  transform: scale(1.1);
+  transition: all 300ms;
+}
+
+#logo {
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.card {
+  background-color: #4e130b;
+  border-radius: 30px;
+}
+
+.row {
+  margin-inline-start: auto;
+}
+.row:hover{
+  animation-play-state: paused;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: all 300ms;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+.card img {
+  border-radius: 30px;
+}
+.boton {
+  padding: 13px 30px;
+  border-radius: 15px;
+}
+.titulo_modal {
+  color: antiquewhite;
+  background-color: #4e130b;
+}
+.cuerpo_modal {
+  color: antiquewhite;
+  background-color: #641c0e;
+}
+
+.pie {
+  color: rgb(233, 238, 245);
+  font-size: 20px;
+  padding: 20px;
+}
+
+@media (min-width:768px) {
+  .redessociales {
+    margin-right: -70px; 
+    }
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  background-color: #641c0e;
+}
+
+.navbar {
+  background-color: #4e130b;
+}
+
+#logo {
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.redessociales {
+  margin-right: -70px; 
+}
+
+.pie {
+  color: rgb(233, 238, 245);
+  font-size: 20px;
+  padding: 20px;
+}

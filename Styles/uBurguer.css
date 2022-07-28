@@ -1,0 +1,96 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.background-color{
+  background-color: #641c0e;
+}
+
+.navbar {
+  background-color: #4e130b;
+}
+
+#ic:hover {
+  transform: scale(1.1);
+  transition: all 300ms;
+}
+
+#logo {
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.seccion-margen{
+  margin-top: 40px;
+}
+
+.medidas_logo{
+  height: 300px;
+  width: 300px;
+}
+
+.posición{ 
+  position: absolute;
+  margin-top: -60px;
+  font-size: 50px;
+}
+
+.nav-link:hover{
+  background-color: #3b484535;
+  text-decoration: none;
+  font-style: italic;
+}
+
+#ic:hover{
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.card{
+  border-radius: 30px;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  transition: all 300ms;
+}
+
+.card-img-top{
+  border-radius: 30px;
+}
+
+.card-text{
+  height: 120px;
+}
+
+.button{
+  padding: 13px 30px;
+  border-radius: 15px;
+  border: none;
+}
+
+.footer{
+  color: rgb(233, 238, 245);
+  font-size: 20px;
+  padding: 20px;
+}
+
+.titulo_modal {
+  color: antiquewhite;
+  background-color: #4e130b;
+}
+.cuerpo_modal {
+  color: antiquewhite;
+  background-color: #641c0e;
+}
+
+@media (min-width: 992px) and (max-width:1003px){
+  .badge{
+    font-size: 14px;
+  }
+}
+
+@media (min-width:768px) {
+  .redessociales {
+    margin-right: -70px; 
+    }
+}
